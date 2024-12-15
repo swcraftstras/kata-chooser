@@ -1,8 +1,9 @@
 import {assertEquals} from "@std/assert";
+import { describe, it } from "jsr:@std/testing/bdd";
 import {add} from "./add.js";
 
-const {test} = Deno
-
-test("foo", () => {
-    assertEquals(add(2, 3), 5);
-});
+describe("add", () => {
+    it("adds 2 numbers", () => {
+        assertEquals(add(2, 3), 5);
+    });
+})
