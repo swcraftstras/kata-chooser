@@ -1,6 +1,7 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@std/assert@*": "1.0.9",
     "jsr:@std/assert@1": "1.0.9",
     "jsr:@std/assert@^1.0.9": "1.0.9",
     "jsr:@std/internal@^1.0.5": "1.0.5",
